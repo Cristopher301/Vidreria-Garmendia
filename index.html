@@ -2,6 +2,11 @@
 <html lang="es">
 
 <head>
+    <script>
+  if (!sessionStorage.getItem("acceso")) {
+    location.replace("login.html");
+  }
+</script>
 
     <meta charset="UTF-8">
 
